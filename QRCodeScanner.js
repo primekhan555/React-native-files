@@ -6,7 +6,7 @@ import { Text, View, Linking, TouchableHighlight, PermissionsAndroid, Platform, 
 // import all basic components
 import { CameraKitCameraScreen, } from 'react-native-camera-kit';
 //import CameraKitCameraScreen we are going to use.
-export default class App extends Component {
+export default class QRCodeScanner extends Component {
     constructor() {
         super();
         this.state = {
